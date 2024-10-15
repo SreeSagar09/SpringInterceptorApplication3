@@ -1,0 +1,17 @@
+A Simple Program to show how to configure Interceptor in Spring Application with HandlerInterceptor class:
+Programs:
+* AppConfig.java
+* AppInit.java
+* ActionHandlerController.java
+* ActionHandlerInterceptor.java
+Notes:
+* The HandlerInterceptor is the root interceptor for all predefine and custom interctors in Spring.
+* It has three default methods those are:
+* default boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception
+* default void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable ModelAndView modelAndView) throws Exception
+* default void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable Exception ex) throws Exception
+Output:
+From preHandle method in ActionHandlerInterceptor class
+From actionHandler1 method in ActionHandlerController class
+From postHandle method in ActionHandlerInterceptor class
+From afterCompletion method in ActionHandlerInterceptor class
