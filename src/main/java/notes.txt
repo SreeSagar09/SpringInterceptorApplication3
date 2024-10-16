@@ -11,6 +11,7 @@ Notes:
 * default void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable ModelAndView modelAndView) throws Exception
 * default void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable Exception ex) throws Exception
 Output:
+console output for this url: http://localhost:8080/SpringInterceptorApplication3/action/actionHandler1
 From preHandle method in ActionHandlerInterceptor class
 From actionHandler1 method in ActionHandlerController class
 From postHandle method in ActionHandlerInterceptor class
